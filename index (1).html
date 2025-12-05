@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peanut & Pi | Math Learning for Toddlers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #fafafa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: #e74c3c;
+            letter-spacing: -0.5px;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+            padding: 80px 20px;
+            text-align: center;
+            margin-top: 0;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: 24px;
+            color: #34495e;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 18px 45px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+        
+        .cta-button:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+        
+        .features {
+            padding: 80px 20px;
+            background: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .feature-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .feature p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        .coming-soon {
+            background: #ecf0f1;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .coming-soon h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .email-form {
+            max-width: 500px;
+            margin: 30px auto;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .email-input {
+            flex: 1;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 50px;
+            outline: none;
+        }
+        
+        .email-input:focus {
+            border-color: #e74c3c;
+        }
+        
+        .submit-button {
+            padding: 15px 35px;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .submit-button:hover {
+            background: #c0392b;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            .subtitle {
+                font-size: 20px;
+            }
+            
+            .email-form {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Peanut & Pi</div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Making Math Magical</h1>
+            <p class="subtitle">For the Littlest Learners</p>
+            <p class="tagline">Research-backed play kits and content that introduce math concepts to toddlers naturally—because early numeracy is just as important as early literacy.</p>
+            <a href="#notify" class="cta-button">Get Early Access</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">🧮</div>
+                    <h3>Developmentally Designed</h3>
+                    <p>Every toy and activity is created with expert input to match your toddler's cognitive stage and learning style.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📦</div>
+                    <h3>Curated Play Kits</h3>
+                    <p>Thoughtfully selected materials delivered to your door, designed to build foundational math skills through play.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✨</div>
+                    <h3>Playful Learning</h3>
+                    <p>No flashcards or pressure—just joyful exploration of patterns, shapes, quantities, and spatial reasoning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="coming-soon" id="notify">
+        <div class="container">
+            <h2>Coming Soon</h2>
+            <p style="font-size: 18px; color: #555; margin-bottom: 20px;">Be the first to know when we launch. Join our waitlist for exclusive early-bird pricing.</p>
+            <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" class="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="submit-button">Notify Me</button>
+            </form>
+            <p style="font-size: 14px; color: #777; margin-top: 15px;">We respect your privacy. Unsubscribe anytime.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Peanut & Pi. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 14px; opacity: 0.8;">Building the future of early math learning, one toddler at a time.</p>
+        </div>
+    </footer>
+</body>
+</html>
